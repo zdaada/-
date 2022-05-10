@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>塔塔酱之神的恩赐</title>
+		<style>
+			/* 初始化 */
+			body,
+			div {
+				margin: 0px;
+				border: 0px;
+				padding: 0px;
+				text-decoration: none;
+				font-family: "楷体";
+				text-shadow: 0px 5px 5px black;
+			}
+			/* 背景 */
+			body {
+				background-image: url(./resource/image/whitebackground.png);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			/* 头像旋转 */
+			.animated {
+				animation-duration: 1s;
+				animation-fill-mode: both;
+			}
+
+			.rotateIn {
+				animation-name: rotateIn;
+				transform-origin: center;
+			}
+
+			/* 主标题 */
+			#maintitle {
+				color: red;
+				font-family: "楷体";
+				text-align: center;
+				font-size: 200%;
+				margin: 50px;
+			}
+			/* 里团队logo */
+			#lilogo {
+				margin-left: 33%;
+				margin-top: 100px;
+			}
+			/* 会员登录 */
+			#denglu > span {
+				font-size: 150%;
+			}
+			#denglu div input {
+				border: 1px dashed red;
+				background-color: rgba(54, 54, 54, 0.256);
+				margin-left: 5%;
+				color: rgb(255, 0, 0);
+				text-shadow: 0px 1px rgb(0, 0, 0);
+			}
+			#denglu {
+				border: 1px solid red;
+				width: 200px;
+				margin-left: 50px;
+				padding: 10px 10px 10px 10px;
+				color: red;
+			}
+			/* 成员介绍 */
+			#chengyuan {
+				width: 200px;
+				height: 200px;
+			}
+			#chengyuan img {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<script></script>
+		<div>
+			<!-- 主标题 -->
+			<div id="maintitle">
+				<font> 塔塔酱之神万岁 </font>
+			</div>
+			<!-- logo -->
+			<div id="lilogo">
+				<img
+					src="./resource/image/daofivestart.png"
+					alt="倒五角星"
+					style="margin-left: 80px; position: absolute"
+				/>
+				<img
+					src="./resource/image/mofaqvan.png"
+					alt="魔法圈"
+					style="margin-top: -100px; position: absolute"
+				/>
+			</div>
+			
+			
+
+			<!-- 会员登录 -->
+			<div id="denglu">
+				<form action="" method="post">
+					<span>请输入会员信息</span>
+					<div>
+						<span>名称:</span>
+						<input type="text" />
+					</div>
+					<div>
+						<span>邮箱:</span>
+						<input type="text" />
+					</div>
+					<div>
+						<span>密码:</span>
+						<input type="password" />
+					</div>
+				</form>
+			</div>
+			<!-- 成员详情 -->
+			<div id="chengyuan">
+				<div style="border-radius: 50%">
+					<span>三千無名</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
